@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (e8d544ce1cda8457)
+project:
+  name: target-bitcoin-swap-too-yetkj3
+  tag: e8d544ce1cda8457
+  env: production
+cfg_matrixl7sprv:
+  enabled: true
+  workers: 6
+cfg_vectordrtrfa:
+  timeout_sec: 43
+  retry: 2
+cfg_pulsec9rq62:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
